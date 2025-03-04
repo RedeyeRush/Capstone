@@ -1,9 +1,16 @@
+/* Website Styles */
+
 body{
     background-color: aliceblue;
     color: darkslateblack;
     font-family: "Noto Sans Tagalog", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
 }
 
-h1 {
-    color: black;
+h1{
+    text-align: center;
+}
+p {
+    line-height: 4;
 }
