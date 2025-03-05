@@ -1,16 +1,35 @@
 /* Website Styles */
 
+header a {
+    font-size: smaller;
+    color: darkturquoise;
+}
+
+
+
 body{
     background-color: aliceblue;
-    color: darkslateblack;
+    color: black;
     font-family: "Noto Sans Tagalog", sans-serif;
     font-size: 14px;
     font-weight: 700;
-}
+    h4{
+        font-style: oblique;
+    }
+    }
 
 h1{
     text-align: center;
+    color:darkturquoise;
+}
+h2{
+    color:cadetblue;
+}
+h3{
+    text-decoration: underline;
+    color:darkcyan;
 }
 p {
-    line-height: 4;
+    line-height: 2;
 }
+
