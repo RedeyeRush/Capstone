@@ -1,8 +1,19 @@
+* {
+    background-color: aliceblue;
+    color: black;
+    font-family: "Noto Sans Tagalog", sans-serif;
+    box-sizing: border-box;
+    margin: 5px;
+}
 /* Website Styles */
 
 header a {
     font-size: smaller;
     color: darkturquoise;
+}
+header h1 {
+    margin: 50px 35px 10px;
+    border-bottom: 1px solid black;
 }
 
 
@@ -13,23 +24,48 @@ body{
     font-family: "Noto Sans Tagalog", sans-serif;
     font-size: 14px;
     font-weight: 700;
-    h4{
-        font-style: oblique;
-    }
     }
 
 h1{
     text-align: center;
     color:darkturquoise;
+    height: 90px;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: darkgoldenrod;
+}
+.menu {
+    padding: 10px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    background-color: chartreuse;
 }
 h2{
+    text-align: center;
     color:cadetblue;
 }
+section a {
+    color: blue;
+}
+#food {
+    width: 700px;
+    height: 5%;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: brown;
+}
 h3{
+    width: 50%;
     text-decoration: underline;
     color:darkcyan;
+    padding: 10px;
+    border: 1px solid black;
+    box-sizing: border-box;
 }
 p {
     line-height: 2;
+}
+footer {
+    border-top: 2px solid cadetblue;
 }
 
