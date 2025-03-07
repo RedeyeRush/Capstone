@@ -112,7 +112,7 @@ h4 {
     color:darkcyan;
 }
 
-& {
+& copy{
     text-align: center;
 }
 
