@@ -17,6 +17,7 @@ header a {
 header h1 {
     margin: 50px 35px 10px;
     border-bottom: 1px solid black;
+    background-color: aliceblue;
 }
 
 body{
@@ -109,6 +110,10 @@ footer {
 h4 {
     text-decoration: underline;
     color:darkcyan;
+}
+
+& {
+    text-align: center;
 }
 
 
