@@ -4,6 +4,8 @@
     font-family: "Noto Sans Tagalog", sans-serif;
     box-sizing: border-box;
     margin: 5px;
+    background-image: url("./images/pixel-heart.webp");
+    background-attachment: fixed;
 }
 /* Website Styles */
 
@@ -11,12 +13,11 @@ header a {
     font-size: smaller;
     color: darkturquoise;
 }
+
 header h1 {
     margin: 50px 35px 10px;
     border-bottom: 1px solid black;
 }
-
-
 
 body{
     background-color: aliceblue;
@@ -28,44 +29,86 @@ body{
 
 h1{
     text-align: center;
+    font-size: 60px;
     color:darkturquoise;
-    height: 90px;
+    margin: 50px;
     padding: 10px;
-    box-sizing: border-box;
-    background-color: darkgoldenrod;
 }
+
 .menu {
     padding: 10px;
-    border: 1px solid black;
-    box-sizing: border-box;
-    background-color: chartreuse;
 }
+
 h2{
     text-align: center;
     color:cadetblue;
 }
+
 section a {
     color: blue;
+    text-align: left;
 }
+
 #food {
-    width: 700px;
-    height: 5%;
-    padding: 10px;
-    box-sizing: border-box;
-    background-color: brown;
+    text-align: center;
 }
+
+
+div h3 {
+    text-align: center;
+}
+
+.first {
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+
+}
+
 h3{
-    width: 50%;
+    text-align: center;
     text-decoration: underline;
     color:darkcyan;
-    padding: 10px;
-    border: 1px solid black;
-    box-sizing: border-box;
+    
 }
+
 p {
+    font-size: 16px;
     line-height: 2;
+    text-align: center;
 }
+
+p em strong {
+    font-size: 16px;
+}
+
+.meow {
+    width: 100%;
+    height: 100px;
+    max-width: 1000px;
+    margin: auto;
+}
+
 footer {
     border-top: 2px solid cadetblue;
 }
+
+.hold {
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-sizing: border-box;
+}
+
+.face {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-sizing: border-box;
+}
+
+h4 {
+    text-decoration: underline;
+    color:darkcyan;
+}
+
 
